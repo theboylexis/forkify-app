@@ -23,40 +23,47 @@ A modern, feature-rich recipe application that allows users to search over 1,000
 ## 🛠️ Tech Stack
 
 ### Core Technologies
+
 - **JavaScript (ES6+)** - Modern JavaScript with async/await, modules, classes
 - **HTML5** - Semantic markup
 - **SASS/SCSS** - Advanced CSS with variables, mixins, and nesting
 - **MVC Architecture** - Clean separation of concerns
 
 ### Build Tools & Libraries
+
 - **Parcel 2.12.0** - Zero-config module bundler
 - **Fraction.js 4.3.7** - Display recipe quantities as fractions (1/2, 3/4, etc.)
 - **Core-js 3.39.0** - Polyfills for modern JavaScript features
 - **Regenerator Runtime** - Async/await support
 
 ### API
+
 - **Forkify API v2** - Recipe data from multiple sources
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/theboylexis/forkify-app-2025.git
    cd forkify-app-2025
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -77,22 +84,26 @@ The production-ready files will be in the `dist/` folder.
 ## 📝 Usage
 
 ### Searching for Recipes
+
 1. Enter an ingredient or recipe name in the search bar
 2. Browse through paginated results
 3. Click on any recipe to view details
 
 ### Viewing Recipe Details
+
 - See cooking time and servings
 - View all ingredients with precise measurements
 - Adjust servings using +/- buttons (ingredients auto-update)
 - Click "Directions" to view the full recipe on the source website
 
 ### Bookmarking Recipes
+
 - Click the bookmark icon on any recipe
 - Access bookmarks from the dropdown menu
 - Bookmarks persist across browser sessions
 
 ### Uploading Your Own Recipe
+
 1. Get a free API key from [Forkify API](https://forkify-api.jonas.io/v2)
 2. Add your key to `src/js/config.js`:
    ```javascript
@@ -134,17 +145,20 @@ forkify/
 ## 🎯 Key Features Implementation
 
 ### MVC Architecture
+
 - **Model** (`model.js`) - Manages application state, API calls, and data transformations
 - **Views** (`views/`) - Responsible for rendering UI and handling user events
 - **Controller** (`controller.js`) - Connects models and views, handles application logic
 
 ### API Integration
+
 - Async/await for clean asynchronous code
 - Error handling with try/catch
 - Request timeout protection (30 seconds)
 - Smart API key management
 
 ### State Management
+
 - Centralized state object
 - LocalStorage for bookmark persistence
 - URL hash for recipe navigation
@@ -154,18 +168,21 @@ forkify/
 This version includes several improvements:
 
 ✅ **Updated Dependencies**
+
 - Parcel 2.0.0-beta → 2.12.0 (stable)
 - Sass 1.26.10 → 1.80.0
 - Core-js 3.6.5 → 3.39.0
 - Replaced deprecated `fractional` with `fraction.js 4.3.7`
 
 ✅ **Fixed Issues**
+
 - Resolved Fraction library import/export issues
 - Fixed API key validation for public recipe searches
 - Increased timeout from 10s to 30s for better reliability
 - Added Parcel configuration for optimized builds
 
 ✅ **Enhanced UX**
+
 - Made logo clickable to return home
 - Added ES6 module support
 - Improved error handling
@@ -180,6 +197,7 @@ This version includes several improvements:
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
+
 - Report bugs
 - Suggest new features
 - Submit pull requests
