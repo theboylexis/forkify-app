@@ -24,6 +24,11 @@ A modern, feature-rich recipe application that allows users to search over 1,000
 
 ### Core Technologies
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![MVC](https://img.shields.io/badge/Architecture-MVC-blue?style=for-the-badge)
+
 - **JavaScript (ES6+)** - Modern JavaScript with async/await, modules, classes
 - **HTML5** - Semantic markup
 - **SASS/SCSS** - Advanced CSS with variables, mixins, and nesting
@@ -31,12 +36,18 @@ A modern, feature-rich recipe application that allows users to search over 1,000
 
 ### Build Tools & Libraries
 
+![Parcel](https://img.shields.io/badge/Parcel-2.12.0-21374B?style=for-the-badge&logo=parcel)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 - **Parcel 2.12.0** - Zero-config module bundler
 - **Fraction.js 4.3.7** - Display recipe quantities as fractions (1/2, 3/4, etc.)
 - **Core-js 3.39.0** - Polyfills for modern JavaScript features
 - **Regenerator Runtime** - Async/await support
 
 ### API
+
+![API](https://img.shields.io/badge/API-Forkify_v2-orange?style=for-the-badge&logo=fastapi&logoColor=white)
 
 - **Forkify API v2** - Recipe data from multiple sources
 
